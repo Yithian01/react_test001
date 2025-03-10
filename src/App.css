@@ -1,0 +1,16 @@
+/* 기본 레이아웃 설정 */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 화면을 꽉 채우도록 */
+}
+
+.main-content {
+  flex: 1; /* main 콘텐츠가 나머지 공간을 차지하도록 */
+}

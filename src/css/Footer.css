@@ -1,0 +1,35 @@
+/* Footer 스타일 */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* 상하 패딩을 줄여서 높이 줄이기 */
+    font-size: 14px; /* 폰트 크기 줄이기 */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 5px 0; /* 문단 간격 줄이기 */
+  }
+  
+  .social-links .youtube-link {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 8px 16px; /* 버튼 크기 줄이기 */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px; /* 버튼 글자 크기 줄이기 */
+  }
+  
+  .social-links .youtube-link:hover {
+    background-color: #c4302b;
+  }
+  

@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 28px; /* 로고 글씨 크기 */
+}
+
+.navbar .logo a {
+  color: white; /* 로고 색상 */
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+.navbar .nav-links a {
+  color: white; /* 링크 색상 */
+  margin: 0 15px;
+  text-decoration: none; /* 밑줄 제거 */
+  font-size: 18px; /* 네비게이션 링크 글씨 크기 */
+}
+
+.navbar .profile a {
+  color: white; /* 로그인, 회원가입 색상 */
+  margin: 0 10px;
+  text-decoration: none; /* 밑줄 제거 */
+  font-size: 18px; /* 로그인, 회원가입 글씨 크기 */
+}
+
+.navbar .profile a:hover {
+  text-decoration: underline; /* 호버 시 밑줄 추가 */
+}

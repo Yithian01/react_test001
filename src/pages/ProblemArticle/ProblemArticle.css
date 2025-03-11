@@ -1,0 +1,64 @@
+/* ProblemArticle.css */
+.problem-article {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+  min-height: 100vh; /* 최소 높이를 100vh로 설정 */
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 70px;
+}
+
+.problem-cards {
+  display: grid; /* Grid를 사용하여 아이템을 배치 */
+  grid-template-columns: repeat(4, 1fr); /* 한 줄에 4개의 아이템 배치 */
+  gap: 20px; /* 아이템 사이에 간격 추가 */
+  justify-items: center; /* 그리드 아이템들을 가운데 정렬 */
+  margin-top: 20px;
+}
+
+.problem-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  width: 100%; /* 각 카드가 그리드 내에서 적절히 크기 조정 */
+  max-width: 250px; /* 최대 너비 설정 */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.problem-card:hover {
+  transform: translateY(-10px);
+}
+
+.problem-title {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.problem-card p {
+  color: #555;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.solve-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.solve-button:hover {
+  background-color: #45a049;
+}

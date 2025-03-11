@@ -1,0 +1,23 @@
+.footer {
+  margin-top: 50px;
+  width: 100%;
+  padding: 10px 0; /* 위아래 패딩을 줄여서 크기 축소 */
+  background-color: #333;
+  color: white;
+  text-align: center;
+  font-size: 14px; /* 텍스트 크기 줄임 */
+  position: relative; /* Footer를 페이지 끝에 위치하게 설정 */
+}
+
+.footer-text {
+  margin-bottom: 5px; /* 텍스트와 이미지 사이 간격 줄임 */
+}
+
+.image-container {
+  margin-top: 10px; /* 이미지와 텍스트 사이 간격 */
+}
+
+.footer-image {
+  width: 30px; /* 이미지의 크기를 작게 설정 */
+  height: auto;
+}
